@@ -19,7 +19,7 @@ Turn you content into revenue using [Roojoom Content Journey](http://www.roojoom
 
 A Roojoom Content Journey is a pre-designed trail of content offered to the consumer in a step-by-step fashion, designed and compiled by the brand marketer in order to optimize conversion and band engagement.
 
-https://youtu.be/yK7F5b2hMWo
+https://www.youtube.com/watch?v=yK7F5b2hMWo
 
 = Roojoom WordPress Plugin =
 
@@ -82,7 +82,7 @@ Personalized and segmented content journeys will enrich user experience with you
 
 == Changelog ==
 
-= 1.0 (2015-mm-dd) =
+= 1.0 (2015-06-28) =
 * Initial release.
 * Register roojoom Shortcode.
 * Register roojoom oEmbed Provider.
