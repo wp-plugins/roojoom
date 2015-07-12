@@ -2,8 +2,8 @@
 Contributors: roojoom, ramiy
 Tags: roojoom, shortcode, embed, oembed
 Requires at least: 3.5
-Tested up to: 4.2
-Stable tag: 1.0
+Tested up to: 4.3
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +30,7 @@ Just copy the item URL and paste it to the post text editor. Then simply click o
 For advanced customization, use `[roojoom id=""]` shortcode with the following attributes:
 
 * **id** (required) - roojoom item id.
-* **type** - `rect` for rectangle widget or `square` for square widget.
+* **type** - '`rect`' for rectangle widget or '`square`' for square widget.
 * **width** - embed width.
 * **height** - embed height.
 * **auto-transition** - (true/false) turn on to change pictures inside widget periodically.
@@ -64,6 +64,13 @@ For any questions or more information, please [contact us](http://info.roojoom.c
 * PHP version 5.4 or greater.
 * MySQL version 5.5 or greater.
 
+== Screenshots ==
+1. Plugin settings page.
+2. Pasting the URL to the text-editor.
+3. Pasting the URL to the visual-editor.
+4. Embed using a shortcode.
+4. Add a roojoom sidebar widget.
+
 == Frequently Asked Questions ==
 
 = What makes Roojoom unique? =
@@ -80,7 +87,30 @@ With Roojoom’s simple drag and drop Editor, you create Content Journeys by agg
 
 Personalized and segmented content journeys will enrich user experience with your content.
 
+= How do I embed a roojoom? =
+
+With this plugin you can use the URL to embed roojooms. Just paste the URL into your post editor:
+`https://coub.com/view/4211j`
+
+= How do I set custom dimentions to my roojooms? =
+
+In WordPress 4.2 you cab double click the embedded item to set max `width` and max `height` dimentions. It will add the WordPress `[embed]` shortcode:
+`[embed width="600" height="400"]https://coub.com/view/4211j[/embed]`
+
+**Note:** Doing it the WordPress way, using the `[embed]` shortcode, is backwards and forward compatible, and it works with all the themes.
+
+= How do I set custom parameters to my roojooms? =
+
+For advanced customization, use following shortcode:
+
+`[roojoom id="" type="" width="" height="" auto-transition="" show-intro="" mini-mode="" open-step="" hide-urls=""]`
+
 == Changelog ==
+
+= 1.1 (2015-07-12) =
+* Add roojoom widget.
+* Add screenshots.
+* Update readme information.
 
 = 1.0 (2015-06-28) =
 * Initial release.

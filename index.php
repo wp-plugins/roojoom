@@ -3,7 +3,7 @@
 Plugin Name: Roojoom
 Plugin URI:  https://wordpress.org/plugins/roojoom/
 Description: Embed your content from roojoom.com into your WordPress site
-Version:     1.0
+Version:     1.1
 Author:      Rami Yushuvaev
 Author URI:  http://GenerateWP.com/
 */
@@ -30,6 +30,7 @@ include_once ( plugin_dir_path( __FILE__ ) . 'deactivator.php' ); // Add Deactiv
 include_once ( plugin_dir_path( __FILE__ ) . 'admin.php' );       // Add Admin Page
 include_once ( plugin_dir_path( __FILE__ ) . 'shortcode.php' );   // Add Shortcode
 include_once ( plugin_dir_path( __FILE__ ) . 'oembed.php' );      // Add oEmbed Provider
+include_once ( plugin_dir_path( __FILE__ ) . 'widget.php' );      // Add Widget
 
 
 
