@@ -90,12 +90,12 @@ Personalized and segmented content journeys will enrich user experience with you
 = How do I embed a roojoom? =
 
 With this plugin you can use the URL to embed roojooms. Just paste the URL into your post editor:
-`https://coub.com/view/4211j`
+`http://tracks.roojoom.com/r/1949`
 
 = How do I set custom dimentions to my roojooms? =
 
 In WordPress 4.2 you cab double click the embedded item to set max `width` and max `height` dimentions. It will add the WordPress `[embed]` shortcode:
-`[embed width="600" height="400"]https://coub.com/view/4211j[/embed]`
+`[embed width="600" height="400"]http://tracks.roojoom.com/r/1949[/embed]`
 
 **Note:** Doing it the WordPress way, using the `[embed]` shortcode, is backwards and forward compatible, and it works with all the themes.
 
